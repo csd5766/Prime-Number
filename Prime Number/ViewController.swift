@@ -15,7 +15,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
 
     @IBAction func Check(_ sender: Any) {
-        // optional binding(Conditional unwraping)을 사용하여 숫자값을 제외함
+        // optional binding(Conditional unwraping)을 사용하여 숫자값을 제외함 d
+        
         if let number = Int(textA.text!) {
             
             var isPrime = true
